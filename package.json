@@ -1,0 +1,75 @@
+{
+  "name": "@faa-aviation-data-portal/tfrs",
+  "description": "Fetch temporary flight restrictions and related data from https://tfr.faa.gov",
+  "version": "0.0.0",
+  "author": {
+    "name": "Forrest Desjardins",
+    "email": "desjardinsfg@gmail.com",
+    "url": "github.com/fdesjardins"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.5",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ],
+    "rules": {
+      "object-curly-spacing": [
+        2,
+        "always"
+      ],
+      "array-bracket-spacing": [
+        2,
+        "always"
+      ],
+      "func-style": [
+        2,
+        "expression"
+      ],
+      "prefer-arrow-callback": [
+        2,
+        {
+          "allowNamedFunctions": false
+        }
+      ]
+    }
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "TFR",
+    "NOTAM",
+    "aviation",
+    "warnings",
+    "hazards",
+    "flight",
+    "restrictions",
+    "FAA"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "repository": "FAA-Aviation-Data-Portal/tfrs",
+  "scripts": {
+    "test": "eslint *.js && nyc mocha test.js"
+  }
+}

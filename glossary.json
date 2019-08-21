@@ -1,0 +1,70 @@
+{
+  "ASE": {
+    "definition": "Airspace",
+    "description": "An airspace defined by an upper and lower altitude boundary."
+  },
+  "ABD": {
+    "definition": "Airspace Border",
+    "description": "The horizontal border of the airspace,"
+  },
+  "TFR": {
+    "definition": "Temporary Flight Restriction",
+    "description": "A type of NOTAM defining an area restricted to air travel due to a hazardous condition, special event, or general warning."
+  },
+  "AFF": {
+    "definition": "ARTCC Facilities",
+    "description": "Air Route Traffic Control Center(s)"
+  },
+  "ATT": {
+    "definition": "An airspace timesheet",
+    "description": "Operating hours for the airspace"
+  },
+  "AAC": {
+    "definition": "Airspace Association",
+    "description": ""
+  },
+  "ARB": {
+    "definition": "Airspace Boundary Descriptions",
+    "description": ""
+  },
+  "AVX": {
+    "definition": "Airspace Vertex",
+    "description": "A location along an airspace border."
+  },
+  "FRD": {
+    "definition": "Fix Radial Distance",
+    "description": "An area defined by a radial distance from a fix."
+  },
+  "DPN": {
+    "definition": "Designated Point",
+    "description": "A significant point not marked by a NAVAID."
+  },
+  "AIN": {
+    "definition": "Angle Indication",
+    "description": "An angle from a NAVAID to a significant point."
+  },
+  "DIN": {
+    "definition": "Distance Indication",
+    "description": "A distance from a NAVAID to a significant point."
+  },
+  "VOR": {
+    "definition": "VHF Omnidirectional Radio Beacon",
+    "description": "A short-range, very-high-frequency omnidirectional beacon."
+  },
+  "BRG": {
+    "definition": "Bearing",
+    "description": ""
+  },
+  "TCN": {
+    "definition": "TACAN",
+    "description": "A tactical air navigation system; an ultrahigh-frequency navigational aid system for aircraft."
+  },
+  "POC": {
+    "definition": "Point of Contact",
+    "description": ""
+  },
+  "USNS": {
+    "definition": "United States NOTAM System",
+    "description": ""
+  }
+}
