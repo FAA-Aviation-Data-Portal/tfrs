@@ -48,17 +48,19 @@
     }
   },
   "files": [
-    "index.js"
+    "index.js",
+    "license",
+    "readme.md"
   ],
   "keywords": [
-    "TFR",
+    "FAA",
     "NOTAM",
+    "TFR",
     "aviation",
-    "warnings",
-    "hazards",
     "flight",
+    "hazards",
     "restrictions",
-    "FAA"
+    "warnings"
   ],
   "license": "MIT",
   "main": "index.js",
