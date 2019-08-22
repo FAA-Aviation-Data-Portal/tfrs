@@ -220,7 +220,7 @@ const extractPoc = not => {
 const extractNot = not => ({
   ...extractNotUid(not.NotUid),
   dailyOperations: not.codeDailyOper._text,
-  datesIssued: not.NotUid.dateIssued._text,
+  dateIssued: not.NotUid.dateIssued._text,
   dateEffective: not.dateEffective ? not.dateEffective._text : null,
   dateExpires: not.dateExpire ? not.dateExpire._text : null,
   timezone: not.codeTimeZone._text,
