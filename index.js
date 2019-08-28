@@ -128,10 +128,21 @@ const extractBoundary = TFRAreaGroup => {
     remark: TFRAreaGroup.abdMergedArea.txtRmk._text,
     datum: TFRAreaGroup.abdMergedArea.Avx[0].codeDatum._text,
     type: TFRAreaGroup.abdMergedArea.Avx[0].codeType._text,
-    vertices: TFRAreaGroup.abdMergedArea.Avx.map(avx => [
-      parseFloat(avx.geoLat._text.replace('N', '')),
-      parseFloat(avx.geoLong._text.replace('W', ''))
-    ])
+    vertices: TFRAreaGroup.abdMergedArea.Avx.map(avx => {
+      let lat = avx.geoLat._text
+      if (lat.includes('S')) {
+        lat = -1 * parseFloat(lat.replace('S', ''))
+      } else {
+        lat = parseFloat(lat.replace('N', ''))
+      }
+      let long = avx.geoLong._text
+      if (long.includes('W')) {
+        long = -1 * parseFloat(long.replace('W', ''))
+      } else {
+        long = parseFloat(long.replace('E', ''))
+      }
+      return [ lat, long ]
+    })
   }
 }
 
