@@ -1,7 +1,7 @@
 {
   "name": "@faa-aviation-data-portal/tfrs",
   "description": "Fetch temporary flight restrictions and related data from https://tfr.faa.gov",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Forrest Desjardins",
     "email": "desjardinsfg@gmail.com",
