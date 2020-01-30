@@ -6,7 +6,7 @@ const example = async () => {
     const details = await tfrs(listing[0].notam, { format: 'json' })
     console.log(JSON.stringify(details, null, 2))
   } catch (err) {
-    console.error(`Fetching/parsing failed`, err)
+    console.error('Fetching/parsing failed', err)
   }
 }
 
