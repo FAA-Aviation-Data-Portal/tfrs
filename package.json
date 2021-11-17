@@ -20,7 +20,7 @@
     "standard": "^16.0.4"
   },
   "engines": {
-    "node": ">=7"
+    "node": ">=10"
   },
   "eslintConfig": {
     "extends": [
