@@ -1,3 +1,6 @@
+⚠️ This project has been deprecated. ⚠️
+**This package is no longer maintained and will be deleted in 30 days.**
+
 # tfrs
 
 Fetch temporary flight restrictions and related data from https://tfr.faa.gov
