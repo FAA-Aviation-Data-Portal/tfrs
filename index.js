@@ -47,7 +47,7 @@ tfrs.list = async () => {
 
     const date = $(columns[0]).text()
     if (!isDate(date)) {
-      return
+      return null
     }
 
     return {
